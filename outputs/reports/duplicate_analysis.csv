@@ -1,2 +1,6 @@
-Metric,Count
-Duplicate Rows,0
+Check,Count,Treatment
+Training exact duplicate rows,0,No removal required
+Testing exact duplicate rows,0,No removal required
+Training duplicate IDs,0,No removal required
+Testing duplicate IDs,0,No removal required
+Train/Test overlapping IDs,0,No leakage detected
