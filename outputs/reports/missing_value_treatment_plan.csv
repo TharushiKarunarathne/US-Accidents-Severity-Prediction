@@ -1,6 +1,6 @@
 Feature,Missing_Count,Missing_Percentage,Treatment,Reason
-End_Lat,352033,44.02211904115808,EXCLUDE,Potential post-event information and approximately 51% missing; exclude rather than impute to avoid leakage.
-End_Lng,352033,44.02211904115808,EXCLUDE,Potential post-event information and approximately 51% missing; exclude rather than impute to avoid leakage.
+End_Lat,352033,44.02211904115808,EXCLUDE,Potential post-event information and substantially missing; exclude rather than impute to avoid leakage.
+End_Lng,352033,44.02211904115808,EXCLUDE,Potential post-event information and substantially missing; exclude rather than impute to avoid leakage.
 Precipitation(in),228510,28.575430207097153,MISSING_INDICATOR_AND_MEDIAN,High missingness and zero-inflated distribution; retain missingness information using an indicator and impute using training-set median.
 Wind_Chill(F),207445,25.941228477140033,MISSING_INDICATOR_AND_MEDIAN,High missingness; retain missingness information and use training-set median imputation.
 Wind_Speed(mph),59424,7.43103743655219,MISSING_INDICATOR_AND_MEDIAN,Moderate missingness and suspicious extreme values; retain missingness information and use training-set median imputation after invalid-value investigation.
