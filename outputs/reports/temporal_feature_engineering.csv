@@ -6,7 +6,7 @@ Start_Hour,int32,24,0,0.0,23.0,Hour of accident start time
 Start_DayOfWeek,int32,7,0,0.0,6.0,"Day of week; Monday=0, Sunday=6"
 Is_Weekend,int64,2,0,0.0,1.0,Indicator for Saturday or Sunday
 Is_Night,int64,2,0,0.0,1.0,Indicator for nighttime accident
-Hour_Sin,float64,21,0,-1.0,1.0,Cyclical sine encoding of hour
+Hour_Sin,float64,22,0,-1.0,1.0,Cyclical sine encoding of hour
 Hour_Cos,float64,22,0,-1.0,1.0,Cyclical cosine encoding of hour
 Month_Sin,float64,11,0,-1.0,1.0,Cyclical sine encoding of month
 Month_Cos,float64,11,0,-1.0,1.0,Cyclical cosine encoding of month

@@ -1,5 +1,5 @@
 Feature,Category,Data_Type,Train_Unique_Values,Test_Unique_Values
-Start_Lat,TEMPORAL,float64,537316,169422
+Start_Lat,TEMPORAL,float64,537920,169498
 Start_Lng,TEMPORAL,float64,540159,169570
 Distance(mi),NUMERICAL,float64,12207,8015
 Street,FREQUENCY_ENCODED,float64,495,496
@@ -11,7 +11,7 @@ Temperature(F),NUMERICAL,float64,743,648
 Wind_Chill(F),NUMERICAL,float64,846,714
 Humidity(%),NUMERICAL,float64,100,99
 Pressure(in),NUMERICAL,float64,989,915
-Visibility(mi),NUMERICAL,float64,61,54
+Visibility(mi),NUMERICAL,float64,60,54
 Wind_Speed(mph),NUMERICAL,float64,97,86
 Precipitation(in),NUMERICAL,float64,194,145
 Weather_Condition,FREQUENCY_ENCODED,float64,74,75
@@ -37,7 +37,7 @@ Start_Hour,TEMPORAL,int64,24,24
 Start_DayOfWeek,TEMPORAL,int64,7,7
 Is_Weekend,TEMPORAL,int64,2,2
 Is_Night,TEMPORAL,int64,2,2
-Hour_Sin,TEMPORAL,float64,20,20
+Hour_Sin,TEMPORAL,float64,21,21
 Hour_Cos,TEMPORAL,float64,22,22
 Month_Sin,TEMPORAL,float64,11,11
 Month_Cos,TEMPORAL,float64,11,11

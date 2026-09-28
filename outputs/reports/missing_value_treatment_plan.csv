@@ -11,10 +11,10 @@ Humidity(%),18127,2.2668015551356615,MEDIAN,Low missingness; median imputation i
 Temperature(F),17105,2.1389993159704033,MEDIAN,Low missingness; median imputation is appropriate for the numerical weather variable.
 Pressure(in),14779,1.8481304233105282,MEDIAN,Low missingness; median imputation is robust to the suspicious extreme values identified during EDA.
 Weather_Timestamp,12694,1.5873988492796431,INVESTIGATE,"Missingness is low, but prediction-time availability must be verified before deciding whether to retain the feature."
-Astronomical_Twilight,2400,0.3001226751434649,MISSING_CATEGORY,Very low missingness; represent missing values explicitly and later assess redundancy.
 Sunrise_Sunset,2400,0.3001226751434649,MISSING_CATEGORY,Very low missingness; represent missing values explicitly and later assess redundancy with Start_Time-derived day/night features.
-Nautical_Twilight,2400,0.3001226751434649,MISSING_CATEGORY,Very low missingness; represent missing values explicitly and later assess redundancy.
 Civil_Twilight,2400,0.3001226751434649,MISSING_CATEGORY,Very low missingness; represent missing values explicitly and later assess redundancy.
+Nautical_Twilight,2400,0.3001226751434649,MISSING_CATEGORY,Very low missingness; represent missing values explicitly and later assess redundancy.
+Astronomical_Twilight,2400,0.3001226751434649,MISSING_CATEGORY,Very low missingness; represent missing values explicitly and later assess redundancy.
 Airport_Code,2313,0.28924322816951425,MISSING_CATEGORY,Low missingness; preserve missingness explicitly while high-cardinality usefulness is evaluated.
 Street,1102,0.1378063283367076,MISSING_CATEGORY,Very low missingness but very high cardinality; represent missing values explicitly before deciding the final encoding strategy.
 Timezone,770,0.09628935827519498,MISSING_CATEGORY,Very low missingness and only four categories; represent missing observations explicitly.
